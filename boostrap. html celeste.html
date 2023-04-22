@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatibe" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de tecnolochicas</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Celeste</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Características</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Deshabilitado</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Bandas</th> 
+            <th scope="col">Cancion mas popular</th>
+            <th scope="col">Mas premios</th>
+            <th scope="col">Albun mas popular</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">BTS</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">Enhypen</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">TXT</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tecnolochicas</h5>
+          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+        </div>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Comentarios</label>
+      </div>
+
+</body>
+
+</html>
